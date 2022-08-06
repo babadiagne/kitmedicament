@@ -4,14 +4,8 @@ from django.http import HttpResponse
 # Create your views here.
 def resume_curuculum (request):
   return HttpResponse ("""
-<form method="post">
-<input type="text">
-<input type="text">
-<input type="email" placeholder="email">
-<input type="submit">
-</form>
+<img src="https://i.ibb.co/d4Wp4B9/kitmedicament.jpg" />
+<img src="https://i.ibb.co/xmgcR24/packmedicament.jpg" />
  """)
 
-#member:malick diagne
-#member:hamath diagne
-#member:lamine diagne
+#un petit commentaire de cette urgence médicament codimed
